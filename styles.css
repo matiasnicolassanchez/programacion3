@@ -1,0 +1,33 @@
+body{
+    background-color: #888484b7;
+}
+
+div > img{
+
+    border-radius: 9px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px #131212b7
+}
+
+div{
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(150ox, 1fr)
+    );
+    gap: 32px;
+}
+
+.cosas{
+    background-color: rgba(0, 0, 0, 0.274);
+    margin: 3px;
+}
+
+.special{
+    text-decoration: double;
+    color: red;
+}
+
+
