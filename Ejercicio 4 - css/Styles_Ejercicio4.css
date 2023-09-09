@@ -1,0 +1,49 @@
+* {
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+p {
+    color: #555;
+}
+
+#seccion1 p{
+    font-size: 20px;
+    color: #000080;
+}
+
+a {
+    color: #FF0000;
+}
+
+em{
+    color: #FFFF00;
+    background-color: #000000;
+}
+
+#seccion1 > em{
+    color: #0000BB;
+    background-color: #f7f72c;
+}
+
+section > p{
+    color: #b8860b;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#normal > span{
+    color: #000000;
+    font-weight: bold;
+    background-color: #deb887;
+}
+
+.normal > span{
+    color: #000000;
+    font-weight: bold;
+    background-color: #deb887;
+}
+
+h1:hover{
+    font-size: 35px;
+}
