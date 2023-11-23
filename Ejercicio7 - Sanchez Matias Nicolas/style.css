@@ -1,0 +1,40 @@
+.caja-1 {
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.caja-2 {
+    background-color: gray;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.caja-3 {
+    background-color: green;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.caja-4 {
+    background-color: deeppink;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.grid {
+    border: 2px dashed blue;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px) 350px;
+    grid-template-rows: 50px 100px 150px 200px;
+    row-gap: 10px;
+    column-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: space-between;
+
+
+}
+

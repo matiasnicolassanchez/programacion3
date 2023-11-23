@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>EDADES</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Esta web es de Programacion III" />
+    <meta name="robots" content="programacion, utn, frvm" />
+    <script src="Ejercicio 4 - Simil Parcial.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de Grupos</h1>
+    </header>
+
+    <main>
+        <section>
+
+            <article>
+                <form name="form-edades" action="" method="">
+                    <fieldset>
+                        <legend> INGRESO DE DATOS </legend>
+                        <p><label>Apellido padres: <input type="text" id="apellidoPadre" maxlength="50"></label></p>
+                        <p><label>Nombre Alumno: <input type="text" id="nombre" maxlength="50"></label></p>
+                        <p><label>Apellido Alumno: <input type="text" id="apellido" maxlength="50"></label></p>
+                        <p><label>Promedio: <input type="number" id="promedio" maxlength="50"></label></p>
+                        <p><label>Desempeño satisfactorio: <input type="checkbox" id="desemp" maxlength="50" ></label></p>
+                        <p><label>Relacion con Doc y comp: <br>Buena <input type="radio" name="rel" id="rel1" value="Buena" checked><br> Regular:<input type="radio" name="rel" value="Regular"></label></p>
+                    </fieldset>
+                    <p><input type="button" value="Generar Informe" id="boton" onclick="generar_informe()"/></p><br><br>
+                </form>
+
+            </article>
+        </section>
+        <section>
+            <div>INFORME ESCOLAR DEL ALUMNO <span id="dato1-alumno">apellido y nombre alumno</span></div>
+            <br><br>
+            <div>Señor y señora <span id="padres">apellido padres</span>:</div>
+            <br>
+            <div><p>Se les informa que en el último año escolar, su hijo <span id="dato2-alumno">apellido y nombre alumno</span>, ha tenido un desempeño académico 
+                loable, teniendo un promedio general de <span id="prom">promedio</span>. Dicho promedio deja al alumno en condición de <span id="condicion">pasadeanio</span>.</p>
+                <p>Su desempeño en clases fue <span id="desempeño">desempeño</span>.</p>
+                <p>Tambien ha manteniendo una relacion <span id="relacion">relacion</span> con sus pares y docentes.</div>
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+
+</html>

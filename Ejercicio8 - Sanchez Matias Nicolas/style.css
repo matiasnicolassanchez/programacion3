@@ -1,0 +1,56 @@
+.cabecera {
+    background-color: aqua;
+    border: 2px solid;
+    padding: 10px;
+    grid-area: area-cabecera;
+}
+
+.barramenu {
+    background-color: blue;
+    border: 2px solid;
+    padding: 10px;
+    grid-area: area-barramenu;
+}
+
+.principal {
+    background-color: blueviolet;
+    border: 2px solid;
+    padding: 10px;
+    grid-area: area-principal;
+}
+
+.principal1 {
+    background-color: brown;
+    border: 2px solid;
+    padding: 10px;
+    grid-area: area-principal1;
+}
+
+.principal2 {
+    background-color: chartreuse;
+    border: 2px solid;
+    padding: 10px;
+    grid-area: area-principal2;
+}
+
+.pie {
+    background-color: chocolate;
+    border: 2px solid;
+    padding: 10px;
+    grid-area: area-pie;
+}
+
+.contenedor {
+    border: 2px dashed blue;
+    height: 600px;
+    row-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-areas: "area-cabecera area-cabecera"
+                         "area-barramenu area-barramenu"
+                         "area-principal area-principal1"
+                         "area-principal2 area-principal2"
+                         "area-pie area-pie";
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 2fr 1fr 3fr 3fr 1fr;
+}
